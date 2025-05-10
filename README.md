@@ -23,4 +23,19 @@ This project uses machine learning to predict whether a WNBA draft pick will be 
 ## Sample Prediction
 
 ```python
-predict_waiver("Indiana Fever", "guard", 2)
+print(predict_waiver('connecticut sun', 'guard', 3))
+print(predict_waiver('dallas wings', 'guard', 3))
+print(predict_waiver('atlanta dream', 'guard', 3))
+
+## Output
+Connecticut Sun | Guard | Round 3
+Prediction: Waived
+Waiver Probability: 99.66%
+
+Dallas Wings | Guard | Round 3
+Prediction: Waived
+Waiver Probability: 59.48%
+
+Atlanta Dream | Guard | Round 3
+Prediction: Kept on roster
+Waiver Probability: 48.39%
