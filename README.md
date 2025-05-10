@@ -1,7 +1,7 @@
 # WNBA Draft Waiver Prediction
 
 This project uses machine learning to predict whether a WNBA draft pick will be waived before playing for their team, based on team, position, and draft round. It focuses on draftees from 2020 to 2024 and combines publicly available data with manually curated waiver information.
-
+## Google Colab Notebook With Interactive Visualization: https://colab.research.google.com/drive/1wYckRdAKAywckbGIQ2o_cyVJfjmHQqgg?authuser=1#scrollTo=WAyULY0sBctx
 ## Tools & Libraries
 - **Python (Google Colab)**
 - **pandas** for data manipulation
